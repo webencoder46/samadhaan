@@ -12,7 +12,7 @@ function DashboardArt() {
       </div>
       <div className="art-title">
         <span className="mini-mark">J</span>
-        <div><small>JOODA HQ</small><strong>Support Console</strong></div>
+        <div><small>SAMADHAAN HQ</small><strong>Support Console</strong></div>
         <Badge tone="dark">LIVE</Badge>
       </div>
       <div className="art-grid">
@@ -55,7 +55,7 @@ export default function Page() {
       {/* Hero Section */}
       <section className="hero section">
         <div className="hero-copy">
-          <Badge tone="accent"><span className="pulse"></span> JOODA HQ • STUDENT SUPPORT</Badge>
+          <Badge tone="accent"><span className="pulse"></span> SAMADHAAN HQ • STUDENT SUPPORT</Badge>
           <Title as="h1">KOI SAMASYA HAI?<br /><span>FORM BHARO.</span></Title>
           <p className="lead">Agar school life mein koi situation aapko disturb kar rahi hai, humein batao. Baaki hum dekh lenge.</p>
           <div className="button-row">
@@ -63,7 +63,7 @@ export default function Page() {
               <Button icon="arrow">Samasya Batayein</Button>
             </Link>
             <Link href="/about">
-              <Button variant="secondary">Jooda Ke Baare Mein</Button>
+              <Button variant="secondary">Samadhaan Ke Baare Mein</Button>
             </Link>
           </div>
           <p className="fineprint"><Icon name="info" size={15} /> Result ki guarantee nahi hai. Response ki koshish zaroor hai.</p>
@@ -81,7 +81,7 @@ export default function Page() {
             <p>Hum aapko <b>arthik, sharirik aur mansik sahayata</b> dene ka poora prayas karenge.</p>
             <p className="notice-foot">*Arthik sahayata ki vartaman sthiti: department dekh raha hai.</p>
           </div>
-          <div className="stamp">APPROVED<span>JOODA HQ</span></div>
+          <div className="stamp">APPROVED<span>SAMADHAAN HQ</span></div>
         </div>
       </section>
 
@@ -114,7 +114,7 @@ export default function Page() {
           <div className="timeline">
             {[
               ["01", "Form Bharo", "Apni problem clearly batao."], 
-              ["02", "Hum Padhenge", "Jooda department case ko dekhega."], 
+              ["02", "Hum Padhenge", "Samadhaan department case ko dekhega."],
               ["03", "Action Hoga", "Ya kam se kam action lene ki planning hogi."]
             ].map(([n, t, d], i) => (
               <div className="step" key={n}>
@@ -123,6 +123,27 @@ export default function Page() {
                 <p>{d}</p>
               </div>
             ))}
+          </div>
+          <div className="team-section">
+            <span className="eyebrow">SAMADHAAN TEAM</span>
+            <Title as="h3">Team jo aapki samasya dekhegi.</Title>
+            <div className="team-grid">
+              {[
+                ["Mukhya Manager", "Vairaat Koli"],
+                ["Head Manager", "Siddharth Watti"],
+                ["Paise Ka Manager", "Deepak Netam"],
+                ["Sharirik Suvidha Manager", "Ansh Dwivedi"],
+                ["Aarthik Suvidha Manager", "Roshan Mistry"],
+                ["Mansik Suvidha Manager", "Geetesh Yadav"],
+                ["Data Sambhalne Wala", "Sameer Chandel"],
+                ["Dekhne Wala", "Kunal Yadav"]
+              ].map(([role, name]) => (
+                <div className="team-member" key={role}>
+                  <span>{role}</span>
+                  <strong>{name}</strong>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -151,7 +172,7 @@ export default function Page() {
       {/* Final CTA */}
       <section className="section final-cta">
         <div>
-          <Badge tone="dark">JOODA SUPPORT DESK</Badge>
+          <Badge tone="dark">SAMADHAAN SUPPORT DESK</Badge>
           <Title>Problem chhoti ho ya badi…<br /><span>…form bharne mein kya ja raha hai?</span></Title>
           <Link href="/submit">
             <Button icon="arrow">Problem Submit Karo</Button>

@@ -80,7 +80,7 @@ export default function SubmitPage() {
 
       <form className="support-form" onSubmit={handleSubmit}>
         <div className="form-progress">
-          <span>JOODA SUPPORT FORM</span>
+          <span>SAMADHAAN SUPPORT FORM</span>
           <Badge tone="success"><span className="status-dot"></span>Secure-ish</Badge>
         </div>
 
@@ -92,7 +92,7 @@ export default function SubmitPage() {
             required
           >
             <option value="" disabled>Category select karein</option>
-            <option>Jooda Related</option>
+            <option>Samadhaan Related</option>
             <option>Hostel Life</option>
             <option>Friendship</option>
             <option>Study</option>
@@ -162,7 +162,7 @@ export default function SubmitPage() {
         <label className="checkbox-row">
           <input type="checkbox" required />
           <span className="custom-checkbox"><Icon name="check" size={14} /></span>
-          <span>I understand ki JOODA ek student-support project hai aur emergency service nahi hai.</span>
+          <span>I understand ki SAMADHAAN ek student-support project hai aur emergency service nahi hai.</span>
         </label>
 
         <Button type="submit" icon="arrow" full disabled={isSubmitting}>

@@ -5,7 +5,7 @@ export function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
     <div className={`logo ${inverse ? "logo-inverse" : ""}`}>
       <span className="logo-mark">J</span>
-      <span>JOODA<sup>™</sup></span>
+      <span>SAMADHAAN<sup>™</sup></span>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function SuccessPage() {
       <Badge tone="success">CASE RECEIVED • HQ NOTIFIED</Badge>
       <Title as="h1">FORM SUCCESSFULLY<br />SUBMITTED <span>✓</span></Title>
       <p className="lead">
-        Aapki problem safely JOODA HQ tak pahunch gayi hai.<br />
+        Aapki problem safely SAMADHAAN HQ tak pahunch gayi hai.<br />
         Ab hamari team isse dekhegi.
       </p>
       <div className="team-note">

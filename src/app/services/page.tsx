@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { Title, Badge, Button } from "../../components/ui";
+import { Title, Badge } from "../../components/ui";
 import Icon from "../../components/Icon";
 
 const departments = [
   { num: "01", icon: "users" as const, title: "Student Support", status: "DESK OPEN", desc: "School life ka koi bhi confusing matter. Sunenge, samjhenge, aur sensible next step dhoondhenge." },
   { num: "02", icon: "home" as const, title: "Hostel Life Support", status: "24/7-ISH", desc: "Room, routine, roommate ya mess-related civilization crisis ke liye." },
   { num: "03", icon: "users" as const, title: "Friendship Issues", status: "NO GOSSIP ZONE", desc: "Misunderstanding aur group dynamics. Gossip nahi, practical support milega." },
-  { num: "04", icon: "brain" as const, title: "Study Pressure", status: "HIGH PRIORITY", desc: "Deadlines, exams aur 'kitna syllabus hua?' ke pressure ko manage karne mein help." },
+  { num: "04", icon: "brain" as const, title: "Study Pressure", status: "HIGH PRIORITY", desc: "Deadlines, exams aur kitna syllabus hua ke pressure ko manage karne mein help." },
   { num: "05", icon: "file" as const, title: "General School Problems", status: "BROAD JURISDICTION", desc: "Jo category list mein fit na ho, woh yahan safely fit ho jayega.", darkBadge: true },
-  { num: "06", icon: "search" as const, title: "Jooda Related Situations", status: "MYSTERIOUS", desc: "Is category ka exact meaning case dekhne ke baad hi department decide karega." }
+  { num: "06", icon: "search" as const, title: "Samadhaan Related Situations", status: "MYSTERIOUS", desc: "Is category ka exact meaning case dekhne ke baad hi department decide karega." }
 ];
 
 export default function ServicesPage() {
@@ -20,7 +20,7 @@ export default function ServicesPage() {
           Har situation ke liye ek department.
         </Title>
         <p className="text-[#6d6b65] text-lg max-w-2xl mx-auto">
-          Problem choose karo. Perfect category na mile toh tension nahi — 'General' department kaafi adaptable hai.
+          Problem choose karo. Perfect category na mile toh tension nahi — General department kaafi adaptable hai.
         </p>
       </section>
 
@@ -60,7 +60,7 @@ export default function ServicesPage() {
             <div className="text-[#f04f2f]"><Icon name="info" size={28} /></div>
             <div>
               <h4 className="text-xl font-bold">Category samajh nahi aa rahi?</h4>
-              <p className="text-gray-400 text-sm mt-1">Koi baat nahi. "Other" choose karo. Department ko thoda detective work pasand hai.</p>
+              <p className="text-gray-400 text-sm mt-1">Koi baat nahi. &quot;Other&quot; choose karo. Department ko thoda detective work pasand hai.</p>
             </div>
           </div>
           <Link href="/submit" className="shrink-0">

@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="footer-links">
           <strong>Explore</strong>
-          <Link href="/about">About JOODA</Link>
+          <Link href="/about">About SAMADHAAN</Link>
           <Link href="/services">Services</Link>
           <Link href="/submit">Submit Problem</Link>
         </div>
@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2026 JOODA™ — Fictional Student Support Initiative</span>
+        <span>© 2026 SAMADHAAN™ — Fictional Student Support Initiative</span>
         <span>Made with paperwork & patience.</span>
       </div>
     </footer>

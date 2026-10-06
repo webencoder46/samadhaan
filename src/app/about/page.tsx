@@ -1,4 +1,4 @@
-import { Title, Badge } from "../../components/ui";
+import { Title } from "../../components/ui";
 import Icon from "../../components/Icon";
 
 export default function AboutPage() {
@@ -7,7 +7,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="section py-24 text-center flex flex-col items-center">
         <span className="text-[#f04f2f] text-[11px] font-extrabold tracking-widest uppercase mb-6 block">About The Department</span>
-        <Title as="h1" className="text-6xl md:text-[7rem] font-black tracking-tighter leading-none mb-6">Jooda Hai Kya?</Title>
+        <Title as="h1" className="text-6xl md:text-[7rem] font-black tracking-tighter leading-none mb-6">Samadhaan Hai Kya?</Title>
         <p className="text-[#6d6b65] text-lg max-w-2xl mx-auto">
           Ek serious-looking initiative, students ki real problems ke liye — paperwork thoda extra hai, intention bilkul sahi.
         </p>
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div>
           <span className="text-[#f04f2f] text-[11px] font-extrabold tracking-widest uppercase mb-4 block">Official Definition</span>
           <Title as="h2" className="text-4xl md:text-5xl leading-tight font-extrabold tracking-tight">
-            JOODA ek <span className="text-[#f04f2f]">fictional student-support initiative</span> hai jo school life ki problems ko sunne, samajhne aur unke baare mein support dene ke liye banaya gaya hai.
+            SAMADHAAN ek <span className="text-[#f04f2f]">fictional student-support initiative</span> hai jo school life ki problems ko sunne, samajhne aur unke baare mein support dene ke liye banaya gaya hai.
           </Title>
         </div>
         <div className="bg-[#181816] text-white p-10 rounded-2xl shadow-xl">
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <p className="text-xl md:text-2xl font-medium leading-snug mb-8">
             “Hum har problem solve nahi kar sakte. Lekin usse ek official case number zaroor de sakte hain.”
           </p>
-          <p className="text-gray-500 text-sm">— JOODA Handbook, Page 1</p>
+          <p className="text-gray-500 text-sm">— SAMADHAAN Handbook, Page 1</p>
         </div>
       </section>
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
 
         <div className="flex flex-col items-center max-w-2xl w-full">
           {[
-            { level: "LEVEL 01", title: "JOODA HQ", dark: false },
+            { level: "LEVEL 01", title: "SAMADHAAN HQ", dark: false },
             { level: "LEVEL 02", title: "Support Department", dark: false },
             { level: "LEVEL 03", title: "Investigation Department", dark: false },
             { level: "LEVEL 04", title: "Tea Department", sub: "Critical infrastructure", dark: true },
