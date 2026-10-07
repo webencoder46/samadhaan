@@ -92,7 +92,7 @@ export default function SubmitPage() {
             required
           >
             <option value="" disabled>Category select karein</option>
-            <option>Samadhaan Related</option>
+            <option>Joda Related</option>
             <option>Hostel Life</option>
             <option>Friendship</option>
             <option>Study</option>
