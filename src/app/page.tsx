@@ -131,9 +131,9 @@ export default function Page() {
               {[
                 ["Mukhya Manager", "Vairaat Koli"],
                 ["Head Manager", "Siddharth Watti"],
-                ["Paise Ka Manager", "Deepak Netam"],
-                ["Sharirik Suvidha Manager", "Ansh Dwivedi"],
                 ["Aarthik Suvidha Manager", "Roshan Mistry"],
+                ["Sharirik Suvidha Manager", "Ansh Dwivedi"],
+                ["Finance Manager", "Deepak Netam"],
                 ["Mansik Suvidha Manager", "Geetesh Yadav"],
                 ["Data Sambhalne Wala", "Sameer Chandel"],
                 ["Dekhne Wala", "Kunal Yadav"]
