@@ -132,7 +132,7 @@ export default function Page() {
                 ["Mukhya Manager", "Vairaat Koli"],
                 ["Head Manager", "Siddharth Watti"],
                 ["Aarthik Suvidha Manager", "Roshan Mistry"],
-                ["Sharirik Suvidha Manager", "Ansh Dwivedi"],
+                ["Body Builder", "Ansh Dwivedi"],
                 ["Finance Manager", "Deepak Netam"],
                 ["Mansik Suvidha Manager", "Geetesh Yadav"],
                 ["Data Sambhalne Wala", "Sameer Chandel"],
