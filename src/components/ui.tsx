@@ -4,7 +4,7 @@ import Icon, { IconName } from "./Icon";
 export function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
     <div className={`logo ${inverse ? "logo-inverse" : ""}`}>
-      <span className="logo-mark">J</span>
+      <span className="logo-mark">S</span>
       <span>SAMADHAAN<sup>™</sup></span>
     </div>
   );
