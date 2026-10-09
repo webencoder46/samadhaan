@@ -137,7 +137,6 @@ export default function Page() {
                 ["Mansik Suvidha Manager", "Geetesh Yadav"],
                 ["Data Sambhalne Wala", "Sameer Chandel"],
                 ["Dekhne Wala", "Kunal Yadav"]
-                ["Dekhne", "Kunal Yadav"]
               ].map(([role, name]) => (
                 <div className="team-member" key={role}>
                   <span>{role}</span>
