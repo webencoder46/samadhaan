@@ -144,6 +144,19 @@ export default function Page() {
                 </div>
               ))}
             </div>
+            <div className="disclaimer-card">
+              <div className="disclaimer-card-left">
+                <span className="disclaimer-icon"><Icon name="info" size={24} /></span>
+                <div>
+                  <span className="disclaimer-label">Padhna Zaroori Hai</span>
+                  <h4>Official-ish Disclaimer</h4>
+                  <p>SAMADHAAN ko use karne se pehle chhoti si important baat.</p>
+                </div>
+              </div>
+              <Link href="/disclaimer" className="disclaimer-link">
+                Disclaimer Padhein <Icon name="arrow" size={17} />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
