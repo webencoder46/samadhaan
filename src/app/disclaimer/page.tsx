@@ -21,30 +21,53 @@ export default function DisclaimerPage() {
         </header>
 
         <main>
-          <span className="disclaimer-eyebrow">Important Suchna</span>
-          <h1>DISCLAIMER<span>.</span></h1>
+          <h1>DISCLAIMER.</h1>
+          
           <p className="disclaimer-intro">
-            SAMADHAAN ek fictional student-support initiative hai. Yahan di gayi
-            information support aur guidance ke liye hai, kisi professional advice
-            ka replacement nahi.
+            DEKHO BHAI YE BAS EK MAZAK HAI ISE JYADA SERIOUSLY MAT LO MAZE SE RAHO PADHAI LIKHYI KARO
+            AUR JYADA BANDA-BANDI CHAKKAR ME MAT RAHO BAHUT BADI DUNIYA HAI AUR LIFE BHI PURI BACHI HAI
+            YE PURA SARCASM HAI BAS MAI EK DIN KHAALI BAITHA THA THO YE BAKAR KAR DIYA JYADA DIMAG ME MAT LO
           </p>
+          
           <hr />
+          
           <div className="disclaimer-copy">
             <p>
-              Hum students ki problems ko sunne, samajhne aur unke baare mein
-              support dene ki poori koshish karte hain. Lekin har situation ka
-              solution ya response ka fixed time guarantee nahi kiya ja sakta.
+              AUR HAA ISS WEBSITE ME SAB WORKING HAI SAAARE BUTTONS LINKED HAI AUR FORM SUPABASE SE LINKED HAI
+              JO BHI FORM BHAROGE ACTULLAY ME MERE PAAS WO AAJAYEGA YE KOI DUUMY NHI HAI SAHI-SAHI BATAU THO
+              SAB CHIZ WORKING HAI KUCH BARKAR KARNA HO THO KAR SAKTE HO  :) 
             </p>
-            <p>
-              Agar aapko real emergency, safety concern ya immediate help ki
-              zaroorat ho, to turant kisi trusted adult, parent, teacher, school
-              authority ya local emergency service se contact karein.
-            </p>
-            <p>
-              SAMADHAAN par form submit karna acknowledgement ya official action
-              ki guarantee nahi hai. Zaroori details share karte waqt apni privacy
-              ka dhyaan rakhein.
-            </p>
+          </div>
+
+          {/* New "made by ca" section with hand-drawn arrow */}
+          <div className="made-by-container">
+            <svg 
+              className="made-by-arrow" 
+              width="80" 
+              height="80" 
+              viewBox="0 0 100 100" 
+              fill="none" 
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {/* Curved line */}
+              <path 
+                d="M30 35 C 60 30, 85 50, 75 90" 
+                stroke="white" 
+                strokeWidth="6" 
+                strokeLinecap="round" 
+                fill="transparent" 
+              />
+              {/* Arrow head */}
+              <path 
+                d="M20 55 L 30 35 L 50 25" 
+                stroke="white" 
+                strokeWidth="6" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                fill="transparent" 
+              />
+            </svg>
+            <span className="made-by-text">made by ca(SPIDERMAN)</span>
           </div>
         </main>
       </div>
